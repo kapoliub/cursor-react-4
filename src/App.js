@@ -4,13 +4,23 @@ import "./App.css";
 import SignUp from "./components/SignComponent/SignUp/SignUp";
 import SignIn from "./components/SignComponent/SignIn/SignIn";
 import Welcome from "./components/Welcome";
-import { BrowserRouter as Router, Redirect, Route, Switch } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  HashRouter,
+  Link,
+  Redirect,
+  Route,
+  Switch,
+} from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <div className="App">
         <Switch>
+          <Route exact path="/">
+            <Redirect to="/signin" />
+          </Route>
           <Route path="/signin">
             <SignIn />
           </Route>
@@ -18,14 +28,11 @@ function App() {
             <SignUp />
           </Route>
           <Route path="/welcome">
-            <Welcome/>
-          </Route>
-          <Route exact path="/">
-            <Redirect to="/signin" />
+            <Welcome />
           </Route>
         </Switch>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
