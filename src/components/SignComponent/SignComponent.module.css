@@ -1,0 +1,121 @@
+.Sign {
+  display: flex;
+  max-width: 300px;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: rgb(41, 41, 41);
+  color: rgb(206, 206, 206);
+}
+
+.logoWrapper {
+  background-color: #f48eb2;
+  width: fit-content;
+  display: flex;
+  margin: 0 auto;
+  padding: 8px;
+  border-radius: 30px;
+}
+
+.logoWrapper img {
+  width: 20px;
+}
+
+.formHeader p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form label {
+  align-self: flex-start;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+}
+
+.form input {
+  margin: 10px 0;
+  padding: 13px 10px;
+  border-radius: 3px;
+  border: 1px solid #77777766;
+  background-color: inherit;
+  color: white;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.form input[type="checkbox"] {
+  cursor: pointer;
+}
+
+.form input[type="submit"] {
+  cursor: pointer;
+  background-color: #90caf9;
+  border: none;
+  font-size: 0.8em;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+  outline: none;
+  padding: 8px;
+  color: black;
+}
+
+.form input[type="submit"]:hover {
+  color: white;
+}
+
+.form input[type="submit"]:active {
+  background-color: #67b9fc;
+  color: white;
+}
+
+.form span {
+  margin-left: 5px;
+  font-size: 0.8em;
+  text-align: left;
+}
+
+.actionsBlock {
+  display: flex;
+  font-size: 0.6em;
+  justify-content: space-between;
+}
+
+.actionsBlock * {
+  color: #90caf9;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.actionsBlock *:hover {
+  text-decoration: underline;
+}
+
+.actionsBlock *:active {
+  color: white;
+}
+
+.formBody {
+  margin-bottom: 50px;
+}
+
+.formFooter {
+  font-size: 0.6em;
+  color: grey;
+}
+
+.nameInputs{
+  display: flex;
+  justify-content: space-between;
+}
+
+.nameInputs *{
+  width: 47%;
+}
+
