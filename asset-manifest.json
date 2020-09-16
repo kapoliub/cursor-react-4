@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cursor-react-4/static/css/main.5d186460.chunk.css",
+    "main.css": "/cursor-react-4/static/css/main.db2b1239.chunk.css",
     "main.js": "/cursor-react-4/static/js/main.0608d973.chunk.js",
     "main.js.map": "/cursor-react-4/static/js/main.0608d973.chunk.js.map",
     "runtime-main.js": "/cursor-react-4/static/js/runtime-main.5062c86c.js",
@@ -8,16 +8,16 @@
     "static/js/2.81daa965.chunk.js": "/cursor-react-4/static/js/2.81daa965.chunk.js",
     "static/js/2.81daa965.chunk.js.map": "/cursor-react-4/static/js/2.81daa965.chunk.js.map",
     "index.html": "/cursor-react-4/index.html",
-    "precache-manifest.ba9b6d96d8104c26a745456ab4d885ad.js": "/cursor-react-4/precache-manifest.ba9b6d96d8104c26a745456ab4d885ad.js",
+    "precache-manifest.ae459c28916b7885e8c0b5adec348956.js": "/cursor-react-4/precache-manifest.ae459c28916b7885e8c0b5adec348956.js",
     "service-worker.js": "/cursor-react-4/service-worker.js",
-    "static/css/main.5d186460.chunk.css.map": "/cursor-react-4/static/css/main.5d186460.chunk.css.map",
+    "static/css/main.db2b1239.chunk.css.map": "/cursor-react-4/static/css/main.db2b1239.chunk.css.map",
     "static/js/2.81daa965.chunk.js.LICENSE.txt": "/cursor-react-4/static/js/2.81daa965.chunk.js.LICENSE.txt",
     "static/media/padlock.svg": "/cursor-react-4/static/media/padlock.458958ee.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.5062c86c.js",
     "static/js/2.81daa965.chunk.js",
-    "static/css/main.5d186460.chunk.css",
+    "static/css/main.db2b1239.chunk.css",
     "static/js/main.0608d973.chunk.js"
   ]
 }
